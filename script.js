@@ -115,7 +115,7 @@ const gameOver = (status) => {
   if (status === 'win') {
   startButton.innerHTML = 'بردی !ازاول؟؟';
 }else {
-  startButton.innerHTML = 'یه باردیگه'
+  startButton.innerHTML = 'باختی! یه باردیگه '
 }
   currentlyPlaying = false;
 }
