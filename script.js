@@ -113,9 +113,9 @@ const startRound = () =>{
 
 const gameOver = (status) => {
   if (status === 'win') {
-  startButton.innerHTML = 'این دفعه رو شانس آووردی';
+  startButton.innerHTML = 'بردی !ازاول؟؟';
 }else {
-  startButton.innerHTML = 'الان زنگ میزنم بیمارستان'
+  startButton.innerHTML = 'یه باردیگه'
 }
   currentlyPlaying = false;
 }
